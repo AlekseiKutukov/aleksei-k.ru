@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import AllHooks from './AllHooks';
+import '../../style/react.css';
 
 const ReactT = () => {
   return (
@@ -12,12 +13,25 @@ const ReactT = () => {
         <AllHooks />
       </div>
       <h2>Примеры кода:</h2>
+      <div className="all-cards__example__code">
+        <Link to="./state-via-props">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Передача состояния через свойства
+          </div>
+        </Link>
 
-      <Link to="./state-via-props">
-        <div className="cards__example__code" title="Посмотреть пример">
-          Передача состояния через свойства
-        </div>
-      </Link>
+        <Link to="./state-via-props">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Передача состояния через свойства
+          </div>
+        </Link>
+
+        <Link to="./state-via-props">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Передача состояния через свойства
+          </div>
+        </Link>
+      </div>
     </>
   );
 };

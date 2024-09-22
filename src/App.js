@@ -24,7 +24,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <>Проверка изменений гит</>
         <Routes>
           <Route path="/" element={<MainLayouts />}>
             <Route index={true} element={<Home />} />

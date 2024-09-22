@@ -57,3 +57,21 @@ li {
 pre {
   overflow-x: scroll;
 }
+
+.cards__example__code {
+  background-color: #e6e6e6;
+  border: 2px solid #b5b5b5;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.cards__example__code:hover {
+  background-color: #fff;
+  border: 2px solid #848484;
+}
+.all-cards__example__code {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
