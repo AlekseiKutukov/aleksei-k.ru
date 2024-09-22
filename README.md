@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-проверка изменений 3
+есть проект реакт который я пытаюсь добавить в гит,
+добавляются все папки, а папка src добавляется пустой со стрелочкой.
+при этом все изменения в папке src не отслеживаются
+
+git rm --cached src -f
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

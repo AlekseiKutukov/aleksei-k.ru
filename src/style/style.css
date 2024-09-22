@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.region-header {
+  background-color: #1a1a1a;
+  padding: 15px 0;
+}
+
+.logo-nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+nav a {
+  margin: 15px;
+  color: #8f8f8f;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.region-main {
+  flex: 1;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.3em;
+  padding: 15px 15px 70px 15px;
+}
+
+.region-footer {
+  background: #e1e1e1;
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.region-footer a {
+  color: #736c6c;
+}
+
+.region-footer a:hover {
+  color: #4d4d4d;
+}
+
+.to-upper {
+  display: inline;
+  background: #e1e1e1;
+  padding: 50px;
+  border-radius: 70px;
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  cursor: pointer;
+}
+
+.to-upper hover {
+  box-shadow: 0px 5px 5px -5px rgba(251, 0, 0, 0.6) inset;
+}
+
+.over__to-upper {
+  text-align: center;
+}
+
+.footer-site-name {
+  padding: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.App {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-toggle {
+  background-color: #444; /* Цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: none; /* Скрыть кнопку на десктопе */
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-menu {
+  margin-top: 20px;
+}
+
+.body_article {
+  background-color: #cacaca;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px #535353;
+  margin-top: 30px;
+}
+
+.example_code {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px #535353;
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  margin: 4px;
+}
+/* Адаптивность Мобильный вид */
+@media (max-width: 800px) {
+  .logo-nav,
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .logo,
+  .footer-site-name {
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-items.open {
+    display: flex;
+    margin: 0;
+  }
+
+  nav a {
+    margin: 0px;
+    text-align: center;
+    border-bottom: solid 1px #7e7e7e;
+    padding: 7px;
+  }
+
+  nav a:hover {
+    background-color: #2d2d2d;
+  }
+
+  .region-header {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+}

@@ -1,0 +1,59 @@
+.hookLink {
+  background-color: #c4c4c4;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 2px solid #777;
+  color: #000;
+}
+
+.hookLink:hover {
+  background-color: #939393;
+  border: 2px solid #000;
+  padding: 13px;
+  margin: 7px;
+}
+
+.hook-example {
+  background-color: #cacaca;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px #535353;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.hook-memorandum {
+  background-color: #fff3b4;
+  padding: 15px;
+  border-radius: 2px;
+  border: 1px solid #f00;
+  box-shadow: 0 0 5px #535353;
+  margin-top: 30px;
+}
+
+li {
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.page-allhooks {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.example-hooks {
+  text-align: center;
+  padding: 20px;
+}
+
+.link__all-hook {
+  text-align: center;
+  padding: 20px;
+}
+
+pre {
+  overflow-x: scroll;
+}
