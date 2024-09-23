@@ -18,6 +18,7 @@ import SingleHooks from './pageRouter/react/SingleHooks';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import StateViaProps from './pageRouter/react/state-via-props/StateViaProps';
+import IterateOverAnArrayOfObjects from './pageRouter/react/iterate-over-an-array-of-objects/IterateOverAnArrayOfObjects';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
             <Route path="react" element={<ReactT />} />
             <Route path="react/:hooksSlug" element={<SingleHooks />} />
             <Route path="react/state-via-props" element={<StateViaProps />} />
+            <Route
+              path="react/iterate-over-an-array-of-objects"
+              element={<IterateOverAnArrayOfObjects />}
+            />
             <Route path="router" element={<RouterT />} />
             <Route path="redux" element={<ReduxT />} />
             <Route path="npm" element={<Npm />} />

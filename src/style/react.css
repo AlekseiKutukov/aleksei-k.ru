@@ -75,3 +75,19 @@ pre {
   flex-flow: wrap;
   justify-content: center;
 }
+
+.all__person {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.cards__person {
+  padding: 5px;
+  border: 1px solid #000;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #1a1a1a;
+}

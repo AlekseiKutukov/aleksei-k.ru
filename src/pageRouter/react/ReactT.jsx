@@ -20,9 +20,9 @@ const ReactT = () => {
           </div>
         </Link>
 
-        <Link to="./state-via-props">
+        <Link to="./iterate-over-an-array-of-objects">
           <div className="cards__example__code" title="Посмотреть пример">
-            Передача состояния через свойства
+            Итерация по массиву объектов
           </div>
         </Link>
 
