@@ -31,6 +31,11 @@ const ReactT = () => {
             Логический оператор И
           </div>
         </Link>
+        <Link to="./fragment">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Реакт фрагмент
+          </div>
+        </Link>
       </div>
     </>
   );

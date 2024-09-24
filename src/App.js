@@ -20,6 +20,7 @@ import Header from './components/Header';
 import StateViaProps from './pageRouter/react/state-via-props/StateViaProps';
 import IterateOverAnArrayOfObjects from './pageRouter/react/iterate-over-an-array-of-objects/IterateOverAnArrayOfObjects';
 import LogicalAndOperator from './pageRouter/react/logical-and-operator/LogicalAndOperator';
+import Fragment from './pageRouter/react/react-fragment/Fragment';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
               path="react/logical-and-operator"
               element={<LogicalAndOperator />}
             />
+            <Route path="react/fragment" element={<Fragment />} />
             <Route path="router" element={<RouterT />} />
             <Route path="redux" element={<ReduxT />} />
             <Route path="npm" element={<Npm />} />
