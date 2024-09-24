@@ -26,9 +26,9 @@ const ReactT = () => {
           </div>
         </Link>
 
-        <Link to="./state-via-props">
+        <Link to="./logical-and-operator">
           <div className="cards__example__code" title="Посмотреть пример">
-            Передача состояния через свойства
+            Логический оператор И
           </div>
         </Link>
       </div>

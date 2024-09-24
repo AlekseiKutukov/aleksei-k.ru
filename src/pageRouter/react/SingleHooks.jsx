@@ -38,17 +38,13 @@ const SingleHooks = () => {
   return (
     <>
       <h1>{hook?.title}</h1>
-
       {pageUseState || pageUseEffect ? (
         <div className="example-hooks">
           <button onClick={() => setLike(like + 1)}>like</button> {like}
         </div>
       ) : null}
-
-      {pageUseParams ? console.log(params) : null}
-
+      {pageUseParams && console.log(params)} {/* тоже самое что и ниже */}
       {pageUseLocation ? console.log(location) : null}
-
       {pageUseContext ? (
         //передаем value={boolen} в провайдер, чтобы потом получить значение
         <BoolenContext.Provider
@@ -60,13 +56,11 @@ const SingleHooks = () => {
           </div>
         </BoolenContext.Provider>
       ) : null}
-
       <div className="hook-description">{hook?.description}</div>
       {hook.memorandum ? (
         <div className="hook-memorandum">{hook?.memorandum}</div>
       ) : null}
       <div className="hook-example">{hook?.example}</div>
-
       <Link to=".." relative="path">
         <div className="link__all-hook">Все хуки</div>
       </Link>

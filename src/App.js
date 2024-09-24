@@ -19,6 +19,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import StateViaProps from './pageRouter/react/state-via-props/StateViaProps';
 import IterateOverAnArrayOfObjects from './pageRouter/react/iterate-over-an-array-of-objects/IterateOverAnArrayOfObjects';
+import LogicalAndOperator from './pageRouter/react/logical-and-operator/LogicalAndOperator';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
             <Route
               path="react/iterate-over-an-array-of-objects"
               element={<IterateOverAnArrayOfObjects />}
+            />
+            <Route
+              path="react/logical-and-operator"
+              element={<LogicalAndOperator />}
             />
             <Route path="router" element={<RouterT />} />
             <Route path="redux" element={<ReduxT />} />
