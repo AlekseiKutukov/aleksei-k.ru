@@ -36,6 +36,11 @@ const ReactT = () => {
             Реакт фрагмент
           </div>
         </Link>
+        <Link to="./login">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Контролируемые поля
+          </div>
+        </Link>
       </div>
     </>
   );

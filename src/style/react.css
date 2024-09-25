@@ -91,3 +91,8 @@ pre {
   border-radius: 3px;
   box-shadow: 0 0 3px #1a1a1a;
 }
+
+label {
+  display: block;
+  padding: 10px;
+}

@@ -21,6 +21,7 @@ import StateViaProps from './pageRouter/react/state-via-props/StateViaProps';
 import IterateOverAnArrayOfObjects from './pageRouter/react/iterate-over-an-array-of-objects/IterateOverAnArrayOfObjects';
 import LogicalAndOperator from './pageRouter/react/logical-and-operator/LogicalAndOperator';
 import Fragment from './pageRouter/react/react-fragment/Fragment';
+import Login from './pageRouter/react/control-pola/Login';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
               element={<LogicalAndOperator />}
             />
             <Route path="react/fragment" element={<Fragment />} />
+            <Route path="react/login" element={<Login />} />
             <Route path="router" element={<RouterT />} />
             <Route path="redux" element={<ReduxT />} />
             <Route path="npm" element={<Npm />} />
