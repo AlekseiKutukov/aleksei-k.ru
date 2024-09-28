@@ -41,6 +41,11 @@ const ReactT = () => {
             Контролируемые поля
           </div>
         </Link>
+        <Link to="./children-prop">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Children prop
+          </div>
+        </Link>
       </div>
     </>
   );

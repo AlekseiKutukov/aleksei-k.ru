@@ -24,7 +24,8 @@
   letter-spacing: 1px;
 }
 
-.hook-memorandum {
+.hook-memorandum,
+.memorandum {
   background-color: #fff3b4;
   padding: 15px;
   border-radius: 2px;
