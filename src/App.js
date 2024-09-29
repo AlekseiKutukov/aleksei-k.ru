@@ -24,6 +24,7 @@ import Fragment from './pageRouter/react/react-fragment/Fragment';
 import Login from './pageRouter/react/control-pola/Login';
 import ChildrenProp from './pageRouter/react/children-prop/ChildrenProp';
 import FetchUseEfect from './pageRouter/react/fetch-useEfect/FetchUseEfect';
+import ArrayPostApi from './pageRouter/react/array-post-API/ArrayPostApi';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
             <Route path="react/login" element={<Login />} />
             <Route path="react/children-prop" element={<ChildrenProp />} />
             <Route path="react/fetch-useefect" element={<FetchUseEfect />} />
+            <Route path="react/array-post-api" element={<ArrayPostApi />} />
             <Route path="router" element={<RouterT />} />
             <Route path="redux" element={<ReduxT />} />
             <Route path="npm" element={<Npm />} />

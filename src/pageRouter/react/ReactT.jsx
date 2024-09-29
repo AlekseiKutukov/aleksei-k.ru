@@ -51,6 +51,11 @@ const ReactT = () => {
             Fetch и useEfect
           </div>
         </Link>
+        <Link to="./array-post-api">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Массив постов из API
+          </div>
+        </Link>
       </div>
     </>
   );
