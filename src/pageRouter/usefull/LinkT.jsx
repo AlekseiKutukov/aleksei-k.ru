@@ -77,6 +77,14 @@ const LinkT = () => {
         </strong>{' '}
       </div>
       <h2>Курсы:</h2>
+
+      <div>
+        <strong>
+          <a href="https://v2.scrimba.com/learn-react-c0e" target="blank">
+            Курс React + Сертификат En
+          </a>
+        </strong>{' '}
+      </div>
       <div>
         <strong>
           <a href="https://m.vk.com/wall-54530371_363123" target="blank">

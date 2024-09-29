@@ -56,6 +56,11 @@ const ReactT = () => {
             Массив постов из API
           </div>
         </Link>
+        <Link to="./array-post-api-async-await">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Массив постов из API используя async/await
+          </div>
+        </Link>
       </div>
     </>
   );
