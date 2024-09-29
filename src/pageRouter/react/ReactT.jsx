@@ -46,6 +46,11 @@ const ReactT = () => {
             Children prop
           </div>
         </Link>
+        <Link to="./fetch-useefect">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Fetch и useEfect
+          </div>
+        </Link>
       </div>
     </>
   );

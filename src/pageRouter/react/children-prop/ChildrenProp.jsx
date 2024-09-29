@@ -19,7 +19,8 @@ const ChildrenProp = () => {
         </>
       </Wrapper>
       <div className="memorandum">
-        Позволяет передавать в компоненты другие блоки js кода.
+        Позволяет передавать в компоненты другие блоки js кода. Часто используют
+        для создания модальных окон
       </div>
       <div className="body_article">
         <pre>
