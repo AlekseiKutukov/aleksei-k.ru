@@ -27,6 +27,7 @@ import FetchUseEfect from './pageRouter/react/fetch-useEfect/FetchUseEfect';
 import ArrayPostApi from './pageRouter/react/array-post-API/ArrayPostApi';
 import ArrayPostApiAsyncAwait from './pageRouter/react/async-await-API/ArrayPostApiAsyncAwait';
 import ReducerJs from './pageRouter/redux/reducer-js/ReducerJs';
+import Js from './pageRouter/js/Js';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
             <Route path="npm" element={<Npm />} />
             <Route path="git" element={<Git />} />
             <Route path="portfolio" element={<Portfolio />} />
+            <Route path="js" element={<Js />} />
             <Route path="poleznoe" element={<MainLayoutsTwo />}>
               <Route index={true} element={<Usefull />} />
               {/* измени пути на динамические */}

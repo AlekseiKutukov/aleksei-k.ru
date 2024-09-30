@@ -27,7 +27,8 @@ const Menu = () => {
         <NavLink to="redux">Redux</NavLink>
         <NavLink to="npm">NPM</NavLink>
         <NavLink to="git">Git</NavLink>
-        <NavLink to="portfolio">Портфолио</NavLink>
+        {/* <NavLink to="portfolio">Портфолио</NavLink> */}
+        <NavLink to="js">JS</NavLink>
         <NavLink to="poleznoe">Полезное</NavLink>
       </ul>
     </nav>
