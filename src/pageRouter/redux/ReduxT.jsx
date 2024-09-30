@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const ReduxT = () => {
   return (
     <>
@@ -22,7 +24,18 @@ const ReduxT = () => {
       <div>
         <strong>Action</strong> действия
       </div>
-      <div></div>
+      <div>
+        <strong>dispatch</strong> — это функция Redux хранилища(store). Вы
+        вызываете store.dispatch , чтобы отправить действие.
+      </div>
+      <h2>Примеры кода:</h2>
+      <div className="all-cards__example__code">
+        <Link to="./reducer-js">
+          <div className="cards__example__code" title="Посмотреть пример">
+            Reducer на js
+          </div>
+        </Link>
+      </div>
       <div></div>
       <div></div>
     </>

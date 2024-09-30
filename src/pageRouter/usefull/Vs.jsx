@@ -14,7 +14,7 @@ const Vs = () => {
         (отступы, запятые, двоеточие)
       </div>
       <div>
-        <strong></strong>
+        <strong>Code Runner</strong> запуск кода
       </div>
       <div>
         <strong></strong>

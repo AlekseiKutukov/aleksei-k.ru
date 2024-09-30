@@ -1,29 +1,7 @@
 const Usefull = () => {
   return (
     <>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
-      <div>Usefull</div>
+      <div>Тут скоро что-то будет</div>
     </>
   );
 };

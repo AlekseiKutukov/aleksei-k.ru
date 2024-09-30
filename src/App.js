@@ -26,6 +26,7 @@ import ChildrenProp from './pageRouter/react/children-prop/ChildrenProp';
 import FetchUseEfect from './pageRouter/react/fetch-useEfect/FetchUseEfect';
 import ArrayPostApi from './pageRouter/react/array-post-API/ArrayPostApi';
 import ArrayPostApiAsyncAwait from './pageRouter/react/async-await-API/ArrayPostApiAsyncAwait';
+import ReducerJs from './pageRouter/redux/reducer-js/ReducerJs';
 
 function App() {
   return (
@@ -57,7 +58,9 @@ function App() {
               element={<ArrayPostApiAsyncAwait />}
             />
             <Route path="router" element={<RouterT />} />
+
             <Route path="redux" element={<ReduxT />} />
+            <Route path="redux/reducer-js" element={<ReducerJs />} />
             <Route path="npm" element={<Npm />} />
             <Route path="git" element={<Git />} />
             <Route path="portfolio" element={<Portfolio />} />
