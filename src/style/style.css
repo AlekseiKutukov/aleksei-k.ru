@@ -124,9 +124,9 @@ nav a:hover {
   text-align: center;
 }
 
-button {
+/* button {
   margin: 4px;
-}
+} */
 /* Адаптивность Мобильный вид */
 @media (max-width: 800px) {
   .logo-nav,

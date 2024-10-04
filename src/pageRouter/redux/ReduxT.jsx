@@ -24,9 +24,17 @@ const ReduxT = () => {
       <div>
         <strong>Action</strong> действия
       </div>
-      <div>
-        <strong>dispatch</strong> — это функция Redux хранилища(store). Вы
-        вызываете store.dispatch , чтобы отправить действие.
+      <div className="body_article">
+        <pre>
+          <code>
+            <strong>Методы Redux:</strong>
+            {` 
+
+dispatch: отправляет действия в магазин redux
+getState: получить текущее состояние 
+subscribe: используется для подписки на обновления состояния`}
+          </code>
+        </pre>
       </div>
       <h2>Примеры кода:</h2>
       <div className="all-cards__example__code">
