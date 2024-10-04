@@ -19,7 +19,18 @@ $ git status # проверь статус файла
 
 $ git commit -m 'add README.md' # коммит файла (тут пишем описание изменений)
 
-$ git push -u origin main # отправка изменений на сервер github`}</code>
+$ git push -u origin main # отправка изменений на сервер github
+      
+      
+      
+      
+      
+      
+Настороить глобально подпись для комитов       
+  git config --global user.name "Aleksei Kutukov"
+  git config --global user.email "kytykob@gmail.com"     
+      
+   `}</code>
       </pre>
     </>
   );
