@@ -3,6 +3,10 @@ const Vs = () => {
     <>
       <h1>VS Code</h1>
       <h2>Расширения:</h2>
+
+      <div>
+        <strong>GitLens</strong>
+      </div>
       <div>
         <strong>Auto Rename Tag</strong>
       </div>

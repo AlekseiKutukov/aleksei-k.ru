@@ -25,11 +25,7 @@ $ git push -u origin main # отправка изменений на серве�
       
       
       
-      
-Настороить глобально подпись для комитов       
-  git config --global user.name "Aleksei Kutukov"
-  git config --global user.email "kytykob@gmail.com"     
-      
+
    `}</code>
       </pre>
     </>

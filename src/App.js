@@ -28,6 +28,7 @@ import ArrayPostApi from './pageRouter/react/array-post-API/ArrayPostApi';
 import ArrayPostApiAsyncAwait from './pageRouter/react/async-await-API/ArrayPostApiAsyncAwait';
 import ReducerJs from './pageRouter/redux/reducer-js/ReducerJs';
 import Js from './pageRouter/js/Js';
+import ReactReduxAppLibrary from './pageRouter/portfolio/react-redux-app-library/ReactReduxAppLibrary';
 
 function App() {
   return (
@@ -65,6 +66,11 @@ function App() {
             <Route path="npm" element={<Npm />} />
             <Route path="git" element={<Git />} />
             <Route path="portfolio" element={<Portfolio />} />
+            <Route
+              path="portfolio/react-redux-app-library"
+              element={<ReactReduxAppLibrary />}
+            />
+
             <Route path="js" element={<Js />} />
             <Route path="poleznoe" element={<MainLayoutsTwo />}>
               <Route index={true} element={<Usefull />} />
